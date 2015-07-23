@@ -1,0 +1,20 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo4 -N"C:\Users\Noor\Desktop\BIG_PIC_2\C_prog\serial_prallel\nono_pic.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Noor\Desktop\BIG_PIC_2\C_prog\serial_prallel\" -SP"C:\Users\Noor\Desktop\BIG_PIC\C_prog\serial_prallel\" -SP"D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\defs\" -SP"D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Dina\Desktop\BIG_PIC\C_prog\serial_prallel\" "nono_pic.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Noor\Desktop\BIG_PIC\C_prog\serial_prallel'	 
+warning: 0	1501	Specified search path does not exist: 'D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\Uses\P16'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Dina\Desktop\BIG_PIC\C_prog\serial_prallel'	 
+hint: 0	1138	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 94 ms	 
+diagnostics: 0	122	Compilation Started	nono_pic.c
+warning: 28	1509	Generated baud rate is 2404 bps (error = 0.17 percent)	nono_pic.c
+hint: 16	1161	Variable 'i' has been declared, but not used	nono_pic.c
+hint: 16	1161	Variable 'k' has been declared, but not used	nono_pic.c
+diagnostics: 48	123	Compiled Successfully	nono_pic.c
+diagnostics: 0	127	All files Compiled in 327 ms	 
+hint: 0	1143	Used RAM (bytes): 32 (9%)  Free RAM (bytes): 320 (91%)	Used RAM (bytes): 32 (9%)  Free RAM (bytes): 320 (91%)
+hint: 0	1143	Used ROM (program words): 445 (5%)  Free ROM (program words): 7747 (95%)	Used ROM (program words): 445 (5%)  Free ROM (program words): 7747 (95%)
+diagnostics: 0	125	Project Linked Successfully	nono_pic.mcppi
+diagnostics: 0	128	Linked in 999 ms	 
+diagnostics: 0	129	Project 'nono_pic.mcppi' completed: 2387 ms	 
+diagnostics: 0	103	Finished successfully: 13 Dec 2011, 09:07:10	nono_pic.mcppi

@@ -1,0 +1,23 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo4 -N"C:\Users\Noor\Desktop\BIG_PIC_2\C_prog\RUN\S.U_after_my_edition\first_stage_in_MCQ_parallel_finish.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Noor\Desktop\BIG_PIC_2\C_prog\RUN\S.U_after_my_edition\" -SP"D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\defs\" -SP"D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Dina\Desktop\project_My ed\C_prog\RUN\S.U_after_my_edition\" -SP"C:\Users\Noor\Desktop\project_3_rd_Comm_MCQ\C_prog\RUN\S.U_after_my_edition\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\hoda\Desktop\project_3_rd_Comm_MCQ\C_prog\RUN\S.U_after_my_edition\" -SP"J:\project_3_rd_Comm_MCQ\C_prog\RUN\S.U_after_my_edition\" -SP"C:\Users\Dina\Desktop\project_3_rd_Comm_MCQ\C_prog\C.U\" "first_stage_in_MCQ_parallel_finish.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'D:\micro_CD\Micro_c_2nd_setup\mikroC PRO for PIC\Uses\P16'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Dina\Desktop\project_My ed\C_prog\RUN\S.U_after_my_edition'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Noor\Desktop\project_3_rd_Comm_MCQ\C_prog\RUN\S.U_after_my_edition'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\Uses\P16'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\hoda\Desktop\project_3_rd_Comm_MCQ\C_prog\RUN\S.U_after_my_edition'	 
+warning: 0	1501	Specified search path does not exist: 'J:\project_3_rd_Comm_MCQ\C_prog\RUN\S.U_after_my_edition'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Dina\Desktop\project_3_rd_Comm_MCQ\C_prog\C.U'	 
+hint: 0	1138	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 94 ms	 
+diagnostics: 0	122	Compilation Started	first_stage_in_MCQ_parallel_finish.c
+warning: 40	1509	Generated baud rate is 2404 bps (error = 0.17 percent)	first_stage_in_MCQ_parallel_finish.c
+diagnostics: 138	123	Compiled Successfully	first_stage_in_MCQ_parallel_finish.c
+diagnostics: 0	127	All files Compiled in 670 ms	 
+hint: 0	1143	Used RAM (bytes): 141 (40%)  Free RAM (bytes): 211 (60%)	Used RAM (bytes): 141 (40%)  Free RAM (bytes): 211 (60%)
+hint: 0	1143	Used ROM (program words): 1748 (21%)  Free ROM (program words): 6444 (79%)	Used ROM (program words): 1748 (21%)  Free ROM (program words): 6444 (79%)
+diagnostics: 0	125	Project Linked Successfully	first_stage_in_MCQ_parallel_finish.mcppi
+diagnostics: 0	128	Linked in 1248 ms	 
+diagnostics: 0	129	Project 'first_stage_in_MCQ_parallel_finish.mcppi' completed: 2854 ms	 
+diagnostics: 0	103	Finished successfully: 13 Dec 2011, 09:10:30	first_stage_in_MCQ_parallel_finish.mcppi

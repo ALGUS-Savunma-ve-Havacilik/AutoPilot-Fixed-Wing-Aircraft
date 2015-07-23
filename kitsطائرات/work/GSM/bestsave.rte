@@ -1,0 +1,165 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  )
+  (network_out
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 203200  1905000 1778000 1905000 2667000 3873500 2667000
+     3873500 1270000 4826000 1270000)
+    (connect (terminal pin GSM-1) (terminal pin J1-4))
+   )
+   (wire (path BOT 203200  1778000 762000 1778000 1016000 1905000 1016000
+     1905000 1778000)
+    (connect (terminal pin J9-8) (terminal pin GSM-1))
+   )
+   )
+   (Net GSM_RX 
+   (rule
+   )
+   (wire (path BOT 76200  2667000 2159000 3111500 2159000 3111500 254000
+     4826000 254000)
+    (connect (terminal pin R19-1) (terminal pin J1-0))
+   )
+   (wire (path BOT 76200  2667000 1778000 2667000 1587500 2794000 1587500
+     2794000 762000)
+    (connect (terminal pin GSM-4) (terminal pin J9-0))
+   )
+   (wire (path BOT 76200  2667000 1778000 2667000 2159000)
+    (connect (terminal pin GSM-4) (terminal pin R19-1))
+   )
+   )
+   (Net GSM_TX 
+   (rule
+   )
+   (wire (path BOT 76200  2794000 508000 2984500 508000 2984500 1460500
+     2921000 1460500 2921000 1778000)
+    (connect (terminal pin J9-1) (terminal pin GSM-5))
+   )
+   (wire (path BOT 76200  2794000 508000 2794000 87630 4992370 87630
+     4992370 507999 4826000 507999 4826000 508000)
+    (connect (terminal pin J9-1) (terminal pin J1-1))
+   )
+   )
+   (Net PC 
+   (rule
+   )
+   (wire (path BOT 76200  4826000 1016000 3429000 1016000 3429000 2476500
+     2159000 2476500 2159000 1778000)
+    (connect (terminal pin J1-3) (terminal pin GSM-2))
+   )
+   (wire (path BOT 76200  2540000 508000 2540000 317500 1016000 317500
+     1016000 3238500 4992370 3238500 4992370 1016001 4826000 1016001
+     4826000 1016000)
+    (connect (terminal pin J9-3) (terminal pin J1-3))
+   )
+   )
+   (Net RI 
+   (rule
+   )
+   (wire (path BOT 76200  2413000 1778000 2413000 2349500 3238500 2349500
+     3238500 762000 4826000 762000)
+    (connect (terminal pin GSM-3) (terminal pin J1-2))
+   )
+   (wire (path BOT 76200  2540000 762000 2540000 1333500 2413000 1333500
+     2413000 1778000)
+    (connect (terminal pin J9-2) (terminal pin GSM-3))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 203200  4826000 1524000 4826000 2921000 1651000 2921000
+     1651000 2413000)
+    (connect (terminal pin J1-5) (terminal wire))
+   )
+   (wire (path BOT 203200  1333500 1778000 1333500 508000 1778000 508000)
+    (connect (terminal wire) (terminal pin J9-9))
+   )
+   (wire (path BOT 203200  1333500 1778000 1333500 2413000 1651000 2413000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 203200  1333500 1778000 1651000 1778000)
+    (connect (terminal wire) (terminal pin GSM-0))
+   )
+   (wire (path BOT 203200  1651000 2159000 1651000 2413000)
+    (connect (terminal pin R19-0) (terminal wire))
+   )
+   )
+  )
+ )
